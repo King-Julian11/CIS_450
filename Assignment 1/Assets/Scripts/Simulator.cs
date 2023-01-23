@@ -10,6 +10,8 @@ public class Simulator : MonoBehaviour
 
     public List<Enemy> enemies;
 
+    public List<AttackManager> attacks;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,14 @@ public class Simulator : MonoBehaviour
         enemies.Add(slime);
         enemies.Add(goblin);
         enemies.Add(wolf);
+
+        attacks = new List<AttackManager>(5);
+
+        attacks.Add(slime);
+        attacks.Add(goblin);
+        attacks.Add(slime);
+        attacks.Add(goblin);
+        attacks.Add(wolf);
     }
 
     // Update is called once per frame
@@ -43,24 +53,16 @@ public class Simulator : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            foreach (Slime e in enemies){
+            foreach (Enemy e in enemies){
                 e.damage();
             }
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            foreach (Goblin n in enemies)
+            foreach (AttackManager n in attacks)
             {
-                n.damage();
-            }
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha1) && Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            foreach (Wolf m in enemies)
-            {
-                m.damage();
+                n.attack();
             }
         }
     }
