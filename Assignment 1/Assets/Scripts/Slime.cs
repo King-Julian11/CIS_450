@@ -1,3 +1,10 @@
+/*
+ * Julian Salgado
+ * Slime.cs
+ * Assignment 1
+ * Create instance of slime enemy
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

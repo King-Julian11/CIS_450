@@ -1,3 +1,10 @@
+/*
+ * Julian Salgado
+ * Enemy.cs
+ * Assignment 1
+ * Create instance of enemy
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

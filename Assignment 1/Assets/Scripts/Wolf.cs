@@ -1,3 +1,10 @@
+/*
+ * Julian Salgado
+ * Wolf.cs
+ * Assignment 1
+ * Create instance of wolf enemy
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,10 @@
+/*
+ * Julian Salgado
+ * HealthManager.cs
+ * Assignment 1
+ * Manages enemies' health points
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

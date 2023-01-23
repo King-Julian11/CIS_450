@@ -1,3 +1,10 @@
+/*
+ * Julian Salgado
+ * Goblin.cs
+ * Assignment 1
+ * Create instance of goblin enemy
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

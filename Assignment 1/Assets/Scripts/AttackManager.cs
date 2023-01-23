@@ -1,3 +1,10 @@
+/*
+ * Julian Salgado
+ * AttackManager.cs
+ * Assignment 1
+ * Enemy attacks and deals damage
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

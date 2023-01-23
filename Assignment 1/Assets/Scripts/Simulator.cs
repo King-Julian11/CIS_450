@@ -1,3 +1,10 @@
+/*
+ * Julian Salgado
+ * Simulator.cs
+ * Assignment 1
+ * Tests methods of each concrete class
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
