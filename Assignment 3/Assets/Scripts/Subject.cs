@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Subject.cs
+ * Assignment 3
+ * Subject script to notify the observers.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,7 +20,7 @@ public class Subject
         }
     }
 
-    public void AddObserver(Observer obj)
+    public void AddObserver(Box obj)
     {
         observers.Add(obj);
     }

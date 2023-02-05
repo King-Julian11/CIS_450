@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Observer.cs
+ * Assignment 3
+ * Observer script that manages observers' response to subject
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -26,7 +32,7 @@ public class Box : Observer
 
     void Jump(float jumpForce)
     {
-        if (box.transform.position.y < 0.55f)
+        if (Input.GetButtonDown("Jump"))
         {
             box.GetComponent<Rigidbody>().AddForce(Vector3.up * jumpForce);
         }
