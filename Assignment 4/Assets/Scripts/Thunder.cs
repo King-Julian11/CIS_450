@@ -13,11 +13,16 @@ public class Thunder : ElementsDecorator
 
     public override int getDamage()
     {
-        return materia.getDamage();
+        return materia.getDamage() + 8;
     }
 
     public override string getDescription()
     {
-        return materia.getDescription();
+        return "Thunder" + materia.getDescription();
+    }
+
+    public override int getSpeed()
+    {
+        return materia.getSpeed() + 14;
     }
 }

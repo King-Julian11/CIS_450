@@ -13,11 +13,16 @@ public class Fire : ElementsDecorator
 
     public override int getDamage()
     {
-        return materia.getDamage();
+        return materia.getDamage() + 10;
     }
 
     public override string getDescription()
     {
-        return materia.getDescription();
+        return "Fire" + materia.getDescription();
+    }
+
+    public override int getSpeed()
+    {
+        return materia.getSpeed() + 10;
     }
 }

@@ -12,4 +12,6 @@ public abstract class Materia
     }
 
     public abstract int getDamage();
+
+    public abstract int getSpeed();
 }
