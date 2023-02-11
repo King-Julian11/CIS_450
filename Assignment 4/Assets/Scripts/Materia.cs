@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Materia.cs
+ * Assignment 4
+ * Abstract class for materia
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

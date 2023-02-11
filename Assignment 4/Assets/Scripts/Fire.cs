@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Fire.cs
+ * Assignment 4
+ * Updates materia with fire element
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,7 +24,7 @@ public class Fire : ElementsDecorator
 
     public override string getDescription()
     {
-        return "Fire" + materia.getDescription();
+        return "Fire " + materia.getDescription();
     }
 
     public override int getSpeed()

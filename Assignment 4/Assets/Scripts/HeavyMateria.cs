@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * HeavyMateria.cs
+ * Assignment 4
+ * Class for heavy materia, a stronger damage but slower casting materia
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Thunder.cs
+ * Assignment 4
+ * Updates materia with lightning element
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,7 +24,7 @@ public class Thunder : ElementsDecorator
 
     public override string getDescription()
     {
-        return "Thunder" + materia.getDescription();
+        return "Thunder " + materia.getDescription();
     }
 
     public override int getSpeed()

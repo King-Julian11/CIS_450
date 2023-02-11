@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * LightMateria.cs
+ * Assignment 4
+ * Class for light materia, a weaker damage but quicker casting materia
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

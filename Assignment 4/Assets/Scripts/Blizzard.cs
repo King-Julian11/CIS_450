@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Blizzard.cs
+ * Assignment 4
+ * Updates materia with ice element
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,7 +24,7 @@ public class Blizzard : ElementsDecorator
 
     public override string getDescription()
     {
-        return "Blizzard" + materia.getDescription();
+        return "Blizzard " + materia.getDescription();
     }
 
     public override int getSpeed()
