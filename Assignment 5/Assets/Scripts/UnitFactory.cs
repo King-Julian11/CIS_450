@@ -11,14 +11,20 @@ public class UnitFactory
         if (type.Equals("Knight"))
         {
             unit = new Knight();
+            GameObject.FindGameObjectWithTag("Unit").GetComponent<MeshRenderer>().material.color
+                = Color.blue;
         }
         else if (type.Equals("Brawler"))
         {
             unit = new Brawler();
+            GameObject.FindGameObjectWithTag("Unit").GetComponent<MeshRenderer>().material.color
+                = Color.red;
         }
         else if (type.Equals("Mage"))
         {
             unit = new Mage();
+            GameObject.FindGameObjectWithTag("Unit").GetComponent<MeshRenderer>().material.color
+                = Color.cyan;
         }
 
         return unit;
