@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Defender.cs
+ * Assignment 5
+ * Class for defender units
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

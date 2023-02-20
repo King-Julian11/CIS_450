@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * TextManager.cs
+ * Assignment 5
+ * Manages UI text
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Mage.cs
+ * Assignment 5
+ * Class for mage units
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

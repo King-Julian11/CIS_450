@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Brawler.cs
+ * Assignment 5
+ * Class for brawler units
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

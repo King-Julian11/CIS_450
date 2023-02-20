@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * UnitSpawner.cs
+ * Assignment 5
+ * Class for spawning defender units
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
