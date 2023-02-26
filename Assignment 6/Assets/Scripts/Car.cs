@@ -18,4 +18,9 @@ public class Car : MonoBehaviour
     {
         
     }
+
+    public override string ToString()
+    {
+        return "Car Brand: " + this.carBrand;
+    }
 }
