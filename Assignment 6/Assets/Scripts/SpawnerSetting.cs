@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * SpawnerSetting.cs
+ * Assignment 6
+ * Displays text to communicate to the player on what car brand will be spawned
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

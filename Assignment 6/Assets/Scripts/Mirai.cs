@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Mirai.cs
+ * Assignment 6
+ * Class to create Mirai, subclass of car
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

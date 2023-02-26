@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Car.cs
+ * Assignment 6
+ * Class to create car
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,16 +13,9 @@ public class Car : MonoBehaviour
     public string carBrand;
     public float speed;
 
-    // Start is called before the first frame update
-    void Start()
+    void Drive()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log(this.carBrand + " travels at " + this.speed + " miles per hour.");
     }
 
     public override string ToString()

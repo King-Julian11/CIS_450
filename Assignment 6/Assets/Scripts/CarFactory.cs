@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * CarFactory.cs
+ * Assignment 6
+ * Factory to create cars
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

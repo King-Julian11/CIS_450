@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * FordCarFactory.cs
+ * Assignment 6
+ * Factory to create Ford brand cars, subclass of CarFactory
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,7 +20,7 @@ public class FordCarFactory : CarFactory
         }
         else if (brand.Equals("Mustang"))
         {
-            fordPrefab = Resources.Load<GameObject>("Cube");
+            fordPrefab = Resources.Load<GameObject>("Capsule");
         }
 
         return fordPrefab;

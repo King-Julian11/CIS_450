@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Prius.cs
+ * Assignment 6
+ * Class to create Prius, subclass of car
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

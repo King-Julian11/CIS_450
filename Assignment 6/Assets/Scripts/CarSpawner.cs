@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * CarSpawner.cs
+ * Assignment 6
+ * Spawns cars on plane
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

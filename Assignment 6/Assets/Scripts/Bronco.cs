@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Bronco.cs
+ * Assignment 6
+ * Class to create Bronco, subclass of car
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

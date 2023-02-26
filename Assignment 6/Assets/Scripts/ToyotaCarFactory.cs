@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * ToyotaCarFactory.cs
+ * Assignment 6
+ * Factory to create Toyota brand cars, subclass of CarFactory
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,11 +16,11 @@ public class ToyotaCarFactory : CarFactory
     {
         if (brand.Equals("Prius"))
         {
-            toyotaPrefab = Resources.Load<GameObject>("Cube");
+            toyotaPrefab = Resources.Load<GameObject>("Cylinder");
         }
         else if (brand.Equals("Mirai"))
         {
-            toyotaPrefab = Resources.Load<GameObject>("Cube");
+            toyotaPrefab = Resources.Load<GameObject>("Sphere");
         }
 
         return toyotaPrefab;
