@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * MoveRight.cs
+ * Assignment 8
+ * Manages right movement input
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

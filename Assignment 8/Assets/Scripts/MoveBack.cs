@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * MoveBack.cs
+ * Assignment 8
+ * Manages backwards movement input
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

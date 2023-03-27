@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Pickup.cs
+ * Assignment 8
+ * Superclass for pickup
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,26 +19,11 @@ public abstract class Pickup : MonoBehaviour
         collider = GetComponent<Collider>();
     }
 
-    private void Reset()
-    {
-        Collider _collider = GetComponent<Collider>();
-        _collider.isTrigger = true;
-    }
 
     private void OnTriggerEnter(Collider other)
     {
         Player player = other.GetComponent<Player>();
 
-        if (player = null)
-            return;
-
         OnPickup(player);
-
-        Disable();
-    }
-
-    protected virtual void Disable()
-    {
-        gameObject.SetActive(false);
     }
 }

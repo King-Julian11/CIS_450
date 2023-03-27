@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * InputManager.cs
+ * Assignment 8
+ * Manages movement inputs
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

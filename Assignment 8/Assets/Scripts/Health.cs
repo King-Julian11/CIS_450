@@ -1,10 +1,17 @@
+/* Julian Salgado
+ * Health.cs
+ * Assignment 8
+ * Class for managaing health
+ * This class was not used
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public int currentHealth { get; private set; }
+    public int currentHealth = 100;
 
     public void Damage(int amount)
     {

@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Player.cs
+ * Assignment 8
+ * Manages player character
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,11 +11,16 @@ using System;
 
 public class Player : MonoBehaviour
 {
-    public event Action<int> OnCoinsCollected = delegate { };
-
-    public int coinCount { get; private set; } = 0;
+    public float coinCount;
 
     public float speed = 10f;
+    public float health;
+
+    void Start()
+    {
+        coinCount = 0;
+        health = 100f;
+    }
 
     public void MoveForward()
     {
@@ -28,9 +39,13 @@ public class Player : MonoBehaviour
         transform.Translate(Vector3.back * Time.deltaTime * speed);
     }
 
-    public void AddCoin(int numCoins)
+    public void AddCoin(float numCoins)
     {
         coinCount += numCoins;
-        OnCoinsCollected.Invoke(coinCount);
+    }
+
+    public void Heal(float amount)
+    {
+        health += amount;
     }
 }

@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * MoveForward.cs
+ * Assignment 8
+ * Manages forwards movement input
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

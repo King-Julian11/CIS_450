@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * MoveLeft.cs
+ * Assignment 8
+ * Manages left movement input
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
