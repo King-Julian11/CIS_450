@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * ReturnToStartState.cs
+ * Assignment 9
+ * Enemy returns to start when player is too far
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,28 +26,19 @@ public class ReturnToStartState : EnemyState
 
     public override void StartChasing()
     {
-        //If the enemy is returning to its start position and sees the player
-        //The enemy could chase the player:
-        Debug.Log("The enemy sees you and continues chasing you.");
         agent.SetDestination(player.transform.position);
         enemyStateManager.currentState = enemyStateManager.moveState;
     }
 
     public override IEnumerator ChargeAttack()
     {
-        Debug.Log("Player got close enough for the enemy to attack, but the enemy was returning to its start position.");
         agent.SetDestination(startPosition);
         yield return null;
     }
 
     public override void StopChasingAndReturnToStart()
     {
-        Debug.Log("Enemy tried to stop chasing and return, but the enemy was already returning to its start position.");
-    }
-
-    public override void RecoverFromDazed()
-    {
-        Debug.Log("Enemy tried to recover from being dazed, but the enemy was returning to its start position.");
+       
     }
 
     public override void ReturnedAndReady()

@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * IdleState.cs
+ * Assignment 9
+ * Idle state for enemy
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -29,11 +35,6 @@ public class IdleState : EnemyState
     }
 
     public override void StopChasingAndReturnToStart()
-    {
-        
-    }
-
-    public override void RecoverFromDazed()
     {
         
     }
