@@ -9,8 +9,6 @@ public class ObjectPooler : MonoBehaviour
     public Dictionary<string, Queue<GameObject>> poolDictionary;
 
 
-    #region This code makes this class a Singleton
-
     public static ObjectPooler instance;
 
     private void Awake()
@@ -20,7 +18,6 @@ public class ObjectPooler : MonoBehaviour
             instance = this;
         }
     }
-    #endregion
 
 
     // Start is called before the first frame update
@@ -31,7 +28,6 @@ public class ObjectPooler : MonoBehaviour
         FillPoolsWithInactiveObjects();
     }
 
-    // Fill the pools with inactive objects on Start()
     private void FillPoolsWithInactiveObjects()
     {
         foreach (Pool pool in pools)
