@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Restart.cs
+ * Assignment 10
+ * Allows player to restart the game
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

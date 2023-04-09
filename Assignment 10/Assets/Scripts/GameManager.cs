@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * GameManager.cs
+ * Assignment 10
+ * GameManager for game.  This script Was not used in the final product
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * PrefabSpawner.cs
+ * Assignment 10
+ * Spawns GameObject prefabs
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

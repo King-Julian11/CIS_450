@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Pool.cs
+ * Assignment 10
+ * Class for a pool of GameObjects
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

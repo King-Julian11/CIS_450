@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Rush.cs
+ * Assignment 10
+ * Causes GameObjects to rush out
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

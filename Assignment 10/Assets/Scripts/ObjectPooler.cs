@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * ObjectPooler.cs
+ * Assignment 10
+ * Fills pools, spawn objects from pools, and returns objects to pools
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,10 +31,10 @@ public class ObjectPooler : MonoBehaviour
     {
         poolDictionary = new Dictionary<string, Queue<GameObject>>();
 
-        FillPoolsWithInactiveObjects();
+        FillPools();
     }
 
-    private void FillPoolsWithInactiveObjects()
+    private void FillPools()
     {
         foreach (Pool pool in pools)
         {
