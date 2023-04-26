@@ -2,32 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item : Inventory
+public class Item : MonoBehaviour
 {
+    public ItemComponent itemToPickup;
+    public Inventory inventory;
     public int amount;
 
-    public override int GetAmount()
+    private void Start()
     {
-        return amount;
+        //Set the sprite of this gameObject to the sprite of the itemToPickup
+        //gameObject.GetComponent<Image>().sprite = itemToPickup.prefab.GetComponent<Image>().sprite;
+
+        //Set the text of this gameObject to the amount of the item on this script
+        //gameObject.GetComponentInChildren<Text>().text = amount.ToString();
     }
 
-    public override ItemType GetItemType()
+    public void AddItem()
     {
-        return itemType;
-    }
-
-    public override GameObject GetPrefab()
-    {
-        return prefab;
-    }
-
-    public override void GetDescription()
-    {
-        Debug.Log(GetAmount() + " " + GetItemType());
-
-        if (!string.IsNullOrEmpty(description))
-        {
-            Debug.Log(description);
-        }
+        inventory.AddItem(itemToPickup, amount);
     }
 }
