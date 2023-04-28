@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * ItemComponent.cs
+ * Assignment 12
+ * Mananges item leaf class
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

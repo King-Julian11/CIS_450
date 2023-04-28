@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * ContainerComposite.cs
+ * Assignment 12
+ * Composite class
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

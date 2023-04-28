@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * InventorySlot.cs
+ * Assignment 12
+ * Mananges features of inventory slots
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

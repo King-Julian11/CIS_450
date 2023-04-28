@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * ItemLeaf.cs
+ * Assignment 12
+ * Mananges features of items
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * Inventory.cs
+ * Assignment 12
+ * Mananges features of inventory
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

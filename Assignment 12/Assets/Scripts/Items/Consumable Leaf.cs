@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * ComsumableLeaf.cs
+ * Assignment 12
+ * Mananges features of consumable items
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

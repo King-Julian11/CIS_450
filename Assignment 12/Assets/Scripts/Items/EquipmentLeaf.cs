@@ -1,3 +1,9 @@
+/* Julian Salgado
+ * EquipmentLeaf.cs
+ * Assignment 12
+ * Mananges features of equipment items
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
